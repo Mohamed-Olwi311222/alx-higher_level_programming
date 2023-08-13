@@ -1,5 +1,10 @@
 def multiple_returns(sentence):
     first = None
-    if sentence:
+    length = len(sentence)
+    t = ()
+    if length == 0:
+        t = (length, first)
+    else:
         first = sentence[0]
-    return (len(sentence), first)
+        t = (length, first)
+    return t
