@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 def max_integer(my_list=[]):
     if not my_list:
-        return None
+        return "None"
     else:
-        big = 0
+        max = 0
         for num in my_list:
-            if big <= num:
-                big = num
-    return big
+            if max <= num:
+                max = num
+    return max
