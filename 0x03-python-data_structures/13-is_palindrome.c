@@ -84,8 +84,13 @@ size_t compareList(listint_t *head, size_t length)
  */
 int is_palindrome(listint_t **head)
 {
-	size_t length = list_len(*head);
-	size_t res = compareList(*head, length);
+	size_t length;
+	size_t res;
+
+	if (!head || !(*head))
+		return (1);
+	length = list_len(*head);
+	res = compareList(*head, length);
 
 	return (res);
 }
