@@ -20,8 +20,10 @@ typedef struct listint_s
 size_t print_listint(const listint_t *h);
 listint_t *add_nodeint_end(listint_t **head, const int n);
 void free_listint(listint_t *head);
-listint_t *copyList(listint_t *original);
 void reverseList(listint_t **head);
+size_t list_len(listint_t *head);
+listint_t *half_list(listint_t *head, size_t len);
+size_t compareList(listint_t *head, size_t length);
 int is_palindrome(listint_t **head);
 
 #endif /* LISTS_H */
