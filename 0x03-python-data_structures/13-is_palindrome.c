@@ -61,7 +61,7 @@ listint_t *half_list(listint_t *head, size_t len)
 */
 size_t compareList(listint_t *head, size_t length)
 {
-	istint_t *half = half_list(head, length);
+	listint_t *half = half_list(head, length);
 
 	reverseList(&half);
 
