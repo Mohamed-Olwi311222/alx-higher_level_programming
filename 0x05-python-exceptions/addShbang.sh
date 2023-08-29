@@ -2,5 +2,5 @@
 
 for file in $@
 do
-	echo "#!/usr/bin/ptyhon3" >> "$file"
+	echo "#!/usr/bin/python3" >> "$file"
 done

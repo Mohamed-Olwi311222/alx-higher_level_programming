@@ -1,4 +1,4 @@
-#!/usr/bin/pyhon3
+#!/usr/bin/python3
 def safe_print_division(a, b):
     if a is None or b is None:
         return None
