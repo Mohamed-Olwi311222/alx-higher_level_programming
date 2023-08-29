@@ -1,7 +1,7 @@
 #!/usr/bin/pyhon3
 def safe_print_division(a, b):
     if a is None or b is None:
-        return
+        return None
     try:
         div = a / b
     except ZeroDivisionError:
