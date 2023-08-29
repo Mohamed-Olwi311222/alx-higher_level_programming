@@ -1,1 +1,1 @@
-#!/usr/bin/ptyhon3
+#!/usr/bin/pyhon3

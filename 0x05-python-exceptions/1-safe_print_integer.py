@@ -1,4 +1,4 @@
-#!/usr/bin/ptyhon3
+#!/usr/bin/pyhon3
 def safe_print_integer(value):
     if value is None:
         return False
