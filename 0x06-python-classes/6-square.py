@@ -10,6 +10,7 @@ class Square:
 
         Args:
             size (int): the size of the new square must be >= 0
+            postion (tuple): the postion of x and y
         """
         self.__position = position
         if not isinstance(size, int):
